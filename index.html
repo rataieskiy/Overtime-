@@ -7,15 +7,20 @@
     <link rel="stylesheet" href="overtime.css">
 </head>
 <body>
+
+    <div class="floating-image">
+        <img src="imagens/Produtos.png" alt="Imagem clicável" id="image">
+      </div>
+
     <header>
-        <h1>Overtime Store</h1>
-        <p>Basket & Streetwear</p>
+        <img src="imagens/3cff81fa-aa92-4993-a3f3-d0c393f0982b.png" alt="logo"/>
+       <!-- <h1>Overtime Store</h1>
+        <p>Basket & Streetwear</p>-->
     </header>
     <br/><br/>
     
 
     <nav>
-        <a href="#produtos">Produtos</a>
         <a href="#sobre">Sobre</a>
         <a href="#contato">Contato</a>
         <a href="#marcas">marcas</a>
@@ -23,32 +28,11 @@
 
     <section class="banner">
         <h1>Bem-vindo à Overtime</h1>
-        <p>Onde o basquete nunca para</p>
-    </section>
-
-    <section id="produtos" class="section">
-        <h2>Nossos Produtos</h2>
-        <div class="products">
-            <div class="product">
-                <img src="https://projetoinfluencer.vteximg.com.br/arquivos/ids/6013759-640-960/Regata-Mitchell---Ness-Road-Swingman-Jersey-Chicago-Bulls-1997-1998-Scottie-Pippen-Vermelha.jpg?v=638574399532530000" alt="Camiseta de Basquete">
-                <h3>Jerseys</h3>
-                <p>Mitchel & Ness</p>
-            </div>
-            <div class="product">
-                <img src="https://images.tcdn.com.br/img/img_prod/1013584/tenis_qix_chorao_pro_allan_mesqueta_mostarda_e_preto_6650_1_14407cbfa10200948c9b31eced15e394.jpg" alt="Tênis de Basquete">
-                <h3>Tênis QIX Chorão</h3>
-                <p>Conforto e estilo para a quadra e para o dia a dia.</p>
-            </div>
-            <div class="product">
-                <img src="https://www.wilsonloja.com.br/cdn/shop/files/WTB7200XB06_0_400x.jpg?v=1699536526" alt="Bola de Basquete">
-                <h3>Bola de Basquete</h3>
-                <p>As bolas oficiais das maiores competições.</p>
-            </div>
-        </div>
+      <!--  <p><a href="produtosover.html">Produtos</a></p>-->
     </section>
 
     <section id="marcas" class="section">
-        <h2>marcas</h2>
+        <h2>Marcas</h2>
         <div class="brands-container">
             <div class="brand-item">
                 <img src="data:image/png;base64,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" alt="Brand 1">
@@ -82,5 +66,6 @@
     <footer>
         <p>&copy; 2024 Overtime - Todos os direitos reservados</p>
     </footer>
+    <script src="overtime.js"></script>
 </body>
 </html>
