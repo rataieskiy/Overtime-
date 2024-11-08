@@ -18,6 +18,11 @@ header {
     background-color: black;
 }
 
+header img {
+    width: 20%; /* ou defina uma largura específica */
+    height: auto;
+  }
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -155,6 +160,14 @@ footer p {
     }
     .brand-item {
         flex: 1 1 45%;
+    }
+}
+@media (max-width: 768px) { 
+    header img {
+      width: 100%; /* Ajuste conforme necessário */
+      height: auto; /* Mantém a proporção da imagem */
+      max-height: 50vh; /* Limita a altura a 50% da altura da tela */
+      object-fit: cover;
     }
 }
 
